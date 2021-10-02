@@ -52,6 +52,7 @@ body{
 }
 
 header{
+    position: fixed;
     left: -1%;
     line-height: 3rem;
 }
