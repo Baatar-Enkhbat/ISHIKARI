@@ -15,11 +15,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;  
 }
 
 body{
     overflow-x: hidden;
+    font-size: 0;
 }
 
 /* humburgerMenu-start */
@@ -29,13 +30,13 @@ a{
 	color: #394b56;
 }
 
+.top-container {
+    position: relative;
+}
+
 header{
-    top: 55%;
     left: 10%;
 	width: 100%;
-    font-family: utsukushi;
-    font-weight: 600;
-    line-height: 2.5rem;
 	position: absolute;
     overflow: hidden;
     z-index: 10;
@@ -53,6 +54,7 @@ header{
 }
 
 .container{
+
 	max-width: 120rem;
 	width: 90%;
 	margin: 0 auto;
@@ -71,27 +73,26 @@ header{
 }
 
 nav{
-	padding-top: 5rem;
+    width: 100%;
+    margin-top: 29%;
 	display: grid;
 	align-items: center;
 	text-transform: uppercase;
 	font-size: 1.6rem;
 }
 
-.brand{
-	font-size: 3rem;
-	font-weight: 300;
-	transform: translateX(-100rem);
-	animation: slideIn .5s forwards;
-}
-
-.brand span{
-	color: crimson;
-}
 
 nav ul{
     width: 100%;
 	display: grid;
+}
+
+nav ul li img {
+    width: 12%;
+}
+
+nav ul li img:hover {
+    margin-left: 2px;
 }
 
 nav ul li{
@@ -131,7 +132,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    color: crimson;
+    margin-left: 1rem;
 }
 
 .overlay{
@@ -175,6 +176,7 @@ nav ul li a:hover::after{
 
 .slides img{
 	width: 100%;
+    background-size: cover;
 }
 
 .slides,
@@ -398,13 +400,13 @@ nav ul li a:hover::after{
 .container .footer-logo {
     position: absolute;
     display: grid;
-    grid-template-columns: 6rem 6rem;
+    grid-template-columns: auto auto;
     grid-gap: 1rem;
     justify-items: center;
-    width: 100%;
+    width: 12%;
     text-align: left;
-    left: 4%;
-    bottom: 19%;
+    left: 8%;
+    bottom: 15%;
     z-index: 1;
 }
 
@@ -417,6 +419,6 @@ nav ul li a:hover::after{
 }
 
 .container .footer-logo  img:hover {
-    margin: 0 3px;
+    margin: 0 1px;
 }
 /* footer-end */
