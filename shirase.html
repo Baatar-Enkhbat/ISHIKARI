@@ -65,63 +65,64 @@
     </div>
 
     <!-- mid2-start -->
+    <div style="overflow-x: hidden;" class="container">
+        <div class="cov">
 
-    <div class="cov">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(img/menu-1.jpg);">
 
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url(img/menu-1.jpg);">
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-2.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-3.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-4.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-5.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-6.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-7.jpg);">
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(img/menu-8.jpg);">
+
+                    </div>
 
                 </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-2.jpg);">
 
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-3.jpg);">
-
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-4.jpg);">
-
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-5.jpg);">
-
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-6.jpg);">
-
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-7.jpg);">
-
-                </div>
-                <div class="swiper-slide" style="background-image: url(img/menu-8.jpg);">
-
-                </div>
-
+                <div class="swiper-pagination"></div>
             </div>
 
-            <div class="swiper-pagination"></div>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    effect: 'coverflow',
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: 'auto',
+                    coverflowEffect: {
+                        rotate: 50,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: true,
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    loop: true,
+                });
+            </script>
+
         </div>
-
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                effect: 'coverflow',
-                grabCursor: true,
-                centeredSlides: true,
-                slidesPerView: 'auto',
-                coverflowEffect: {
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows: true,
-                },
-                pagination: {
-                    el: '.swiper-pagination',
-                },
-                loop: true,
-            });
-        </script>
-
     </div>
 
     <!-- mid2-end -->
