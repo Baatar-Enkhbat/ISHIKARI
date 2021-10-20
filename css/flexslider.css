@@ -319,6 +319,135 @@ nav ul li a:hover::after{
     top: 61.5%;
 }
 
+
+/* turshilt */
+
+  
+.soto{
+    background: url(../img/background-4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container-s{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    grid-gap: 2rem;
+    padding: 1rem;
+}
+
+.container-s .box{
+    width: 350px;
+    height: 370px;
+    background: #000;
+    background-position: bottom;
+    transition: ease-in-out 5s;
+}
+
+.container-s .box.box1{
+    background: url(../img/omc-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container-s .box.box2{
+    background: url(../img/omc-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container-s .box.box3{
+    background: url(../img/omc-3.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box4{
+    background: url(../img/omc-4.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box5{
+    background: url(../img/omc-5.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box6{
+    background: url(../img/omc-6.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box7{
+    background: url(../img/omc-7.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box8{
+    background: url(../img/omc-8.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box9{
+    background: url(../img/omc-9.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box10{
+    background: url(../img/omc-10.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box11{
+    background: url(../img/omc-11.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box12{
+    background: url(../img/omc-12.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.container-s .box.box13{
+    background: url(../img/omc-13.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container-s .box:hover 
+{
+    background-position: top;
+}
+
+/* turshilt */
+
+
+
+
+
+/* midgrid-start */
+
+.os-g {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    padding: 30;
+}
+
+.os-g .img1 .cov-img1 {
+    display: none;
+}
+.os-g .img1 .cov-img1:hover{
+    display: block;
+}
+
+
+/* midgrid-end */
+
 .mids .btn-3 {
     position: absolute;
     width: 100%;
