@@ -442,13 +442,12 @@
     .container-footer{
         position: relative;
         width: 100%;
-        padding-right: 10rem;
+        padding-right: 8rem;
     }
 
     .container-footer .footer{
         width: 100%;
         margin-top: 10%;
-        right: 20rem;
         display: grid;
         grid-template-columns: repeat(3, auto);
         justify-content: right;
