@@ -569,14 +569,25 @@
     .container-footer{
         position: relative;
         width: 100%;
-        padding-right: 3rem;
+        padding-right: 0;
+        padding-right: 4rem;
     }
 
     .container-footer .footer .footer-menu{
+        display: grid;
+        grid-template-columns: auto auto auto;
         width: 100%;
         padding: 0 1rem;
         padding-top: 0;
-        text-align: left;
+        text-align: center;
+    }
+
+    .sps{
+        display: none;
+    }
+
+    .spb{
+        grid-column: span 2;
     }
 
     .container-footer .footer .footer-menu a{
