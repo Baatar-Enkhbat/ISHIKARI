@@ -481,6 +481,14 @@
     }
 }
 
+@media (max-width: 768px) { 
+    .container-footer{
+        position: relative;
+        width: 100%;
+        padding-right: 4rem;
+    }
+}
+
 
 @media (max-width: 640px) { 
     .home{
