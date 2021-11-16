@@ -1,0 +1,143 @@
+@media (max-width: 1400px){   
+    .container-mid2 .grid-imgs img{
+        width: 20rem;
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 13rem;
+    }
+
+    .container-mid4 .grid-imgs3{
+        margin-left: 30%;
+    }
+
+    .container-footer{
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 1320px){ 
+
+    .grid-top{
+        grid-template-columns: 14rem auto;
+    }
+
+    .container-menu{     
+        grid-template-rows: 6rem auto 4rem 2rem;
+        width: 14rem;
+    }
+
+    .container-menu img{
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    .container-menu .menu-top a{
+        font-size: .9rem;
+    }
+
+    .container-menu .menu-bot{
+        grid-template-columns: 4rem 4rem;
+        grid-template-rows: 2rem;
+        margin-top: 10%;
+        text-align: center;
+        list-style: none;
+    }
+
+    .container-menu .menu-bot a{
+        font-size: .8rem;
+    }
+
+    .container-menu .contact a{
+        padding: .8rem 1.5rem;
+        font-size: .8rem;
+        font-weight: 700;
+    }
+
+    .container-menu .contact{
+        margin-top: .5rem;
+    }
+
+    .container-mid2 .grid-imgs img{
+        width: 20rem;
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 13rem;
+    }
+
+    .container-mid4 .grid-imgs3{
+        margin-left: 32%;
+    }
+
+    .container-footer{
+        padding-right: 8%;
+    }
+
+    .container-footer .footer .footer-menu a{
+        font-size: .8rem;
+    }
+
+    .copy-right p{
+        font-size: .8rem;
+    }
+
+    .container-footer .footer .footer-logo img{
+        width: 5rem;
+    }
+    
+    .container-footer .footer .footer-to-top img{
+        width: 4rem;
+    }
+}
+@media (max-width: 1024px){ 
+
+    .grid-top{
+        grid-template-columns: 14rem auto;
+    }
+
+    .container-menu{
+        width: 14rem;
+    }
+
+    .container-menu img{
+        width: 33%;
+        margin-left: 5%;
+    }
+
+    .container-menu .menu-top a{
+        font-size: .9rem;
+    }
+
+    .container-mid2 .grid-imgs img{
+        width: 20rem;
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 13rem;
+    }
+
+    .container-mid4 .grid-imgs3{
+        margin-left: 32%;
+    }
+
+    .container-footer{
+        padding-right: 8%;
+    }
+
+    .container-footer .footer .footer-menu a{
+        font-size: .8rem;
+    }
+
+    .copy-right p{
+        font-size: .8rem;
+    }
+
+    .container-footer .footer .footer-logo img{
+        width: 5rem;
+    }
+    
+    .container-footer .footer .footer-to-top img{
+        width: 4rem;
+    }
+}
