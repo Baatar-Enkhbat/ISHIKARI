@@ -146,7 +146,7 @@ body{
 	display: inline-block;
 	width:15px;
 	height: 15px;
-	font-size: 1px;
+	font-size: 0;
 	color: #ffffff;
 	background-color: #ffffff;
 	border-radius:50%;
@@ -307,6 +307,10 @@ body{
 	width: 10rem;
 }
 
+.skip img:hover{
+	opacity: .7;
+}
+
 .container-mid{
 	position: relative;
 	width: 100%;
@@ -327,6 +331,10 @@ body{
 	width: 20rem;
 }
 
+.container-mid .video img:hover{
+	opacity: .7;
+}
+
 .container-mid .view{
 	position: absolute;
 	right: 40%;
@@ -336,6 +344,10 @@ body{
 
 .container-mid .view img{
 	width: 10rem;
+}
+
+.container-mid .view img:hover{
+	opacity: .7;
 }
 
 .container-mid2{

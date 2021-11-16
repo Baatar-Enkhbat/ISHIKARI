@@ -351,3 +351,13 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 960px){
+    .container-menu{
+        display: none;
+    }
+
+    .grid-top{
+        display: block;
+    }
+}
