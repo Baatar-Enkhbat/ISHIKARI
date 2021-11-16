@@ -485,7 +485,35 @@
     .container-footer{
         position: relative;
         width: 100%;
-        padding-right: 4rem;
+        padding-right: 3rem;
+    }
+
+    .container-footer .footer .footer-menu{
+        width: 100%;
+        padding: 0 1rem;
+        padding-top: 0;
+        text-align: left;
+    }
+
+    .container-footer .footer .footer-menu a{
+        font-size: 7px;
+        padding: 1px;
+    }
+
+    .bot-ms{
+        display: none;
+    }
+
+    .container-footer .footer .footer-logo img{
+        width: 2rem;
+    }
+    
+    .container-footer .footer .footer-to-top img{
+        width: 2rem;
+    }
+
+    .copy-right p{
+        font-size: .5rem;
     }
 }
 
