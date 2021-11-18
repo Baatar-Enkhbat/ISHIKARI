@@ -170,8 +170,13 @@
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 1.2rem;
-  padding: 1rem;
+  font-size: 1.3rem;
+  padding: .5rem;
+}
+
+.menu-wrap .menu > div > div > ul > li:hover{
+  background-color: #95c015;
+  border-radius: 15px;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {

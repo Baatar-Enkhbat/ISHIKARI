@@ -208,6 +208,10 @@ body{
 	font-weight: 700;
 }
 
+.container-menu .menu-top a:hover{
+	color: #95c015;
+}
+
 .bb{
 	border-bottom: #333 solid 1px;
 }
@@ -226,6 +230,10 @@ body{
 	border-left: #333 solid 1px;
 	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 700;
+}
+
+.container-menu .menu-bot a:hover{
+	color: #95c015;
 }
 
 .br{
@@ -374,6 +382,10 @@ body{
 	width: 23rem;
 }
 
+.container-mid2 .grid-imgs img:hover{
+	opacity: .7;
+}
+
 .container-mid3{
 	position: relative;
 	font-size: 0;
@@ -420,6 +432,10 @@ body{
 	width: 100%;
 }
 
+.container-mid4 .grid-imgs3 img:hover{
+	opacity: .7;
+}
+
 .span{
 	grid-column: span 3;
 }
@@ -457,6 +473,10 @@ body{
 .container-footer .footer .footer-menu a{
 	color: #333;
 	padding: 1rem;
+}
+
+.container-footer .footer .footer-menu a:hover{
+	color: #95c015;
 }
 
 .copy-right{
