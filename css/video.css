@@ -77,3 +77,9 @@ body {
 .skip img:hover {
   opacity: .7;
 }
+
+@media (max-width: 768px) {
+  .skip img {
+    bottom: 13rem;
+  }
+}
