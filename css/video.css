@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-header
-{
+
+header{
   position: absolute;
   top: 0;
   left: 0;
@@ -18,12 +17,13 @@ header
   justify-content: space-between;
   align-items: center;
 }
-header .logo
-{
+
+header .logo{
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
 }
+
 /* .toggle
 {
   position: relative;
@@ -43,8 +43,8 @@ header .logo
   background-position: center;
   cursor: pointer;
 } */
-.showcase
-{
+
+.showcase{
   position: absolute;
   right: 0;
   width: 100%;
@@ -57,13 +57,12 @@ header .logo
   transition: 0.5s;
   z-index: 2;
 }
-.showcase.active
-{
+
+.showcase.active{
   right: 300px;
 }
 
-.showcase video
-{
+.showcase video{
   position: absolute;
   top: 0;
   left: 0;
@@ -72,8 +71,8 @@ header .logo
   object-fit: cover;
   opacity: 0.8;
 }
-.overlay
-{
+
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -82,16 +81,15 @@ header .logo
   background: #03a9f4;
   mix-blend-mode: overlay;
 }
-.text
-{
+
+.text{
   position: absolute;
   bottom: 20%;
   right: 0;
   z-index: 10;
 }
 
-.text h2
-{
+.text h2{
   font-size: 6rem;
   font-weight: 800;
   color: #fff;
@@ -100,8 +98,7 @@ header .logo
 }
 
 
-.text a
-{
+.text a{
   display: inline-block;
   font-size: 1rem;
   background: #fff;
@@ -114,8 +111,8 @@ header .logo
   letter-spacing: 2px;
   transition: 0.2s;
 }
-.text a:hover
-{
+
+.text a:hover{
   letter-spacing: 6px;
 }
 
@@ -127,12 +124,12 @@ header .logo
   justify-content: center;
   align-items: center;
 }
-.social li
-{
+
+.social li{
   list-style: none;
 }
-.social li a
-{
+
+.social li a{
   display: inline-block;
   margin-right: 20px;
   filter: invert(1);
@@ -141,12 +138,11 @@ header .logo
 }
 
 
-.social li a:hover
-{
+.social li a:hover{
   transform: scale(0.5) translateY(-15px);
 }
-.menu
-{
+
+.menu{
   position: absolute;
   top: 0;
   right: 0;
@@ -156,22 +152,22 @@ header .logo
   justify-content: center;
   align-items: center;
 }
-.menu ul
-{
+
+.menu ul{
   position: relative;
 }
-.menu ul li
-{
+
+.menu ul li{
   list-style: none;
 }
-.menu ul li a
-{
+
+.menu ul li a {
   text-decoration: none;
   font-size: 24px;
   color: #111;
 }
-.menu ul li a:hover
-{
+
+.menu ul li a:hover{
   color: #03a9f4; 
 }
 
@@ -180,8 +176,7 @@ header .logo
     left: 20px;
   }
 
-  .showcase video
-{
+  .showcase video{
   position: absolute;
   top: 0;
   left: 0;
@@ -191,8 +186,7 @@ header .logo
   opacity: 0.8;
 }
 
-.text a
-{
+.text a{
   display: inline-block;
   font-size: 1rem;
   background: #fff;
@@ -205,4 +199,5 @@ header .logo
   letter-spacing: 2px;
   transition: 0.2s;
 }
+
 }

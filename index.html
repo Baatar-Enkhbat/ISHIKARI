@@ -12,25 +12,111 @@
 </head>
 
 <body>
-    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
-    <section class="showcase">
-        <header>
-            <h2 class="logo">HIRAI</h2>
-            <!-- <div class="toggle"></div> -->
-        </header>
-        <video src="video/ひらいHD採用動画2021木でつくる未来.mp4" loop autoplay muted></video>
-        <div class="overlay"></div>
-        <div class="text">
-            <a href="main.html">NEXT AD</a>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+
+            }
+
+            body {
+                margin: 0;
+                font-family: Arial;
+                height: 100vh;
+            }
+
+            #myVideo {
+                position: relative;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+
+            .content {
+                position: relative;
+                top: 0;
+                background: rgba(0, 0, 0, 0.5);
+                color: #f1f1f1;
+                width: 100%;
+                padding: 20px;
+            }
+
+            #myBtn {
+                width: 200px;
+                font-size: 18px;
+                padding: 10px;
+                border: none;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            #myBtn:hover {
+                background: #ddd;
+                color: black;
+            }
+
+            .skip {
+                position: relative;
+                right: 0;
+                width: 100%;
+            }
+
+            .skip img {
+                position: absolute;
+                right: 0;
+                bottom: 5rem;
+                width: 10rem;
+            }
+
+            .skip img:hover {
+                opacity: .7;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <video autoplay muted loop id="myVideo">
+            <source src="video/ひらいHD採用動画2021木でつくる未来.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+        <div class="content">
+            <h1>HIRAI</h1>
+            <p>Lorem ipsum dolor sit amet, an his etiam
+            <p>
+                <button id="myBtn" onclick="myFunction()">Pause</button>
+            <div class="skip">
+                <a href="main.html"><img src="images/skip.jpg" alt=""></a>
+            </div>
         </div>
-        <ul class="social">
-            <li><a href="#"><i class="fab fa-line" style="font-size: 5rem; color: #000;"></i></a></li>
-            <li><a href="#"><i class="fab fa-facebook" style="font-size: 5rem; color: #000;"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram" style="font-size: 5rem; color: #000;"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter" style="font-size: 5rem; color: #000;"></i></a></li>
-        </ul>
-    </section>
-    <script src="video.js"></script>
+
+        <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                }
+            }
+        </script>
+
+    </body>
+
+    </html>
+
 </body>
 
 </html>
