@@ -80,6 +80,7 @@ body {
 
 @media (max-width: 768px) {
   .skip img {
-    bottom: 13rem;
+    bottom: 7rem;
+    width: 8rem;
   }
 }
