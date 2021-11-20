@@ -118,6 +118,25 @@ textarea{
   cursor: pointer;
 }
 
+.back a{
+  position: absolute;
+  top: 5%;
+  background-color: #95c015;
+  padding: 3px 6px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.back a:hover{
+  background-color: #cee48e;
+}
+
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   font-family: "Kavivanar", cursive;
