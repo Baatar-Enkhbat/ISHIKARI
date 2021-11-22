@@ -1,5 +1,4 @@
-@media (max-width: 1480px){
-  @media (max-width: 1280px)
+ @media (max-width: 1280px){
 
     .container-m, 
     .container-m2{
@@ -200,7 +199,7 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
   .container-text{
     position: relative;
     width: 100%;
@@ -249,5 +248,3 @@
   grid-template-columns: auto auto;
 }
 }
-
-
