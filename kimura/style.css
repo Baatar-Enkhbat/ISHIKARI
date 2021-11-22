@@ -31,7 +31,7 @@
 
 .container-text p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
 }
@@ -45,10 +45,12 @@
 
 .container-m{
     position: relative;
+    width: 100%;
     background-color: rgb(212, 212, 212);
     display: grid;
     grid-template-columns: 490px 490px;
     justify-content: center;
+    text-align: center;
     grid-gap: 5rem;
     padding:5rem 0;
     }
@@ -88,7 +90,7 @@
 
   .main{
     width: 90%;
-    height: 100vh;
+    height: 90vh;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -110,7 +112,9 @@
     width: 100%;
     border-radius: 7px;
   }
-
+.swiper-pagination{
+  bottom: 0;
+}
 
   /* slide2-end */
 
