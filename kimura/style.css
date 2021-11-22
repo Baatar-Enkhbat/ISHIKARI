@@ -83,6 +83,25 @@
     line-height: 1.7;
     text-align: left;
 }
+
+.container-m-1{
+    position: relative;
+    background-color: rgb(212, 212, 212);
+    display: grid;
+    grid-template-columns: 1050px;
+    justify-content: center;
+    padding:5rem 0;
+    }
+
+.container-m-1 h2 , h3{
+    text-align: left;
+    padding: 1.8rem 0;
+}
+
+.container-m-1 p{
+    line-height: 1.7;
+    text-align: left;
+}
   /* md-end */
 
 
@@ -126,6 +145,7 @@
   }
 
   .container-m3 img{
+    margin-top: 5rem;
     width: 1000px;
   }
 
