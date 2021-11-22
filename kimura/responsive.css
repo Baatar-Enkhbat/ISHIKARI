@@ -167,6 +167,11 @@
   width: 500px;
 }
 
+.main{
+  width: 80%;
+  height: 45vh;
+}
+
 .container-footer2 .footer .footer-logo img{
   width: 4rem;
 }
@@ -188,6 +193,11 @@
 
   .container-m3 img{
     width: 400px;
+  }
+
+  .main{
+    width: 80%;
+    height: 38vh;
   }
 
   .container-footer2 .footer .footer-logo img{
@@ -221,10 +231,7 @@
 
 .main{
   width: 80%;
-  height: 20vh;
-  position: relative;
-  overflow: hidden;
-  background: #fdfdfd;
+  height: 32vh;
 }
 
 .container-m3 img{
