@@ -1,10 +1,16 @@
 @media (max-width: 1400px){   
-    .container-mid2 .grid-imgs img{
-        width: 20rem;
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 18rem);
     }
 
     .container-mid3 .grid-imgs2 img{
-        width: 13rem;
+        width: 17rem;
+    }
+
+    .container-mid2 .grid-imgs img{
+        width: 20rem;
     }
 
     .container-mid4 .grid-imgs3{
@@ -70,8 +76,14 @@
         width: 20rem;
     }
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 17rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 13rem;
+        width: 16rem;
     }
 
     .container-mid4 .grid-imgs3{
@@ -170,9 +182,16 @@
         width: 20rem;
     }
 
-    .container-mid3 .grid-imgs2 img{
-        width: 13rem;
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 16rem);
     }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 16rem;
+    }
+
 
     .container-mid4 .grid-imgs3{
         margin-left: 30%;
@@ -204,8 +223,14 @@
         width: 17rem;
     }
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 14rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 12rem;
+        width: 14rem;
     }
 
     .container-mid .video img{
@@ -218,8 +243,14 @@
 }
 
 @media (max-width: 1100px){
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 14rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 11rem;
+        width: 14rem;
     }
 
     .container-footer .footer .footer-logo img{
@@ -231,7 +262,7 @@
     }
 
     .container-footer .footer .footer-menu a{
-        padding: .8rem;
+        padding:0 .8rem;
     }
 
     .container-menu .menu-bot{
@@ -325,8 +356,14 @@
         width: 15rem;
     }
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 13rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 10rem;
+        width: 13rem;
     }
 
     .container-footer .footer .footer-menu{
@@ -336,7 +373,7 @@
     }
     
     .container-footer .footer .footer-menu a{
-        padding: .5rem;
+        padding:0 .5rem;
     }
 
     .home .caption h1{
@@ -360,6 +397,16 @@
     .grid-top{
         display: block;
     }
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 12rem);
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 12rem;
+    }
+
 }
 
 
@@ -420,8 +467,14 @@
         width: 13rem;
     }
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 11rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 9rem;
+        width: 11rem;
     }
 
     .container-mid4{
@@ -461,7 +514,7 @@
 
     .container-footer .footer .footer-menu a{
         font-size: 8px;
-        padding: .8rem;
+        padding:0 .8rem;
     }
 
     .bot-ms{
@@ -483,6 +536,16 @@
 
 @media (max-width: 768px) { 
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 9rem);
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 9rem;
+    }
+
     .container-footer{
         position: relative;
         width: 100%;
@@ -498,7 +561,7 @@
 
     .container-footer .footer .footer-menu a{
         font-size: 8px;
-        padding: 1rem;
+        padding:0 1rem;
     }
 
     .bot-ms{
@@ -576,8 +639,14 @@
         width: 6.5rem;
     }
 
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 5rem);
+    }
+
     .container-mid3 .grid-imgs2 img{
-        width: 4rem;
+        width: 5rem;
     }
 
     .container-mid4{
@@ -610,7 +679,7 @@
 
     .container-footer .footer .footer-menu a{
         font-size: 7px;
-        padding: 1px;
+        padding:0 3px;
     }
 
     .bot-ms{
