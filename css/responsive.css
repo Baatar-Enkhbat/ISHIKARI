@@ -218,6 +218,31 @@
     }
 }
 
+@media (max-width: 1200px) and (min-width: 1141px) {
+    .container-mid2 .grid-imgs img{
+        width: 17rem;
+    }
+
+    .container-mid3 .grid-imgs2{
+        top: 10%;
+        right: 5%;
+        grid-template-columns: repeat(3, 14rem);
+    }
+
+    .container-mid3 .grid-imgs2 img{
+        width: 14rem;
+    }
+
+    .container-mid .video img{
+        width: 15rem;
+    }
+
+    .container-mid .video img{
+        width: 12rem;
+    }
+}
+
+
 @media (max-width: 1140px){ 
     .container-mid2 .grid-imgs img{
         width: 17rem;

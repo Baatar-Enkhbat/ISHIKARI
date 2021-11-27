@@ -12,9 +12,9 @@ var btn = document.getElementById("myBtn");
 function myFunction() {
     if (video.paused) {
         video.play();
-        btn.innerHTML = "Pause";
+        btn.innerHTML = "PAUSE";
     } else {
         video.pause();
-        btn.innerHTML = "Play";
+        btn.innerHTML = "PLAY";
     }
 }

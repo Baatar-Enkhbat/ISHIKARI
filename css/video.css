@@ -15,12 +15,12 @@ body {
   position: relative;
   display: grid;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #95c015;
 }
 
 #myVideo {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: #95c015;
   left: 0;
   top: 0;
   width: 100%;
@@ -50,30 +50,30 @@ body {
 }
 
 
-#myBtn {
+#myBtn{
   width: 10rem;
   font-size: 1.2rem;
+  font-weight: 900;
   line-height: 1.5;
   border-radius: 10px;
+  background:none;
   border: none;
-  background: rgb(87, 87, 87);
-  color: #fff;
+  color: rgb(13, 112, 0);
+  text-shadow: 5px 5px 5px rgb(190, 136, 34);
   cursor: pointer;
 }
 
 #myBtn:hover{
-  background: #ddd;
-  color: black;
+  color: rgb(58, 187, 127);
 }
 
 a{
   text-decoration: none;
-  color: #fff;
+  color: rgb(13, 112, 0);
 }
 
 #myBtn a:hover {
-  background: #ddd;
-  color: black;
+  color: rgb(58, 187, 127);
 }
 
 .skip img {
@@ -100,6 +100,10 @@ a{
     grid-template-columns: auto;
     justify-content: center;
     padding:20px 50px;
+  }
+
+  .content h1{
+    color: #706e7e;
   }
 
   #myBtn{
