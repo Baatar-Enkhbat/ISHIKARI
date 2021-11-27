@@ -19,7 +19,7 @@ body {
 
 #myVideo {
   position: relative;
-  background: #95c015;
+  background: #54bce6;
   left: 0;
   top: 0;
   width: 100%;
@@ -58,8 +58,8 @@ body {
   border-radius: 10px;
   background:none;
   border: none;
-  color: #706e7e;
-  text-shadow: 10px 10px 10px rgb(190, 136, 34);
+  color: #54bce6;
+  text-shadow: 10px 10px 5px rgb(190, 136, 34);
   cursor: pointer;
 }
 
@@ -69,7 +69,7 @@ body {
 
 a{
   text-decoration: none;
-  color: #706e7e;
+  color: #54bce6;
 }
 
 #myBtn a:hover {
