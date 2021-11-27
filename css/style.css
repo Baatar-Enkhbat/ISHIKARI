@@ -201,7 +201,7 @@ body{
 
 .container-menu .menu-top{
 	display: grid;
-	grid-template-rows: repeat(11, auto);
+	grid-template-rows: repeat(9, auto);
 	list-style: none;
 	width: 75%;
 }
@@ -406,7 +406,7 @@ body{
 .container-mid3 .grid-imgs2{
 	position: absolute;
 	top: 10%;
-	right: 5%;
+	right: 4.5rem;
 	display: grid; 
 	grid-template-columns: repeat(3, 20rem);
 	justify-content: center;
@@ -425,12 +425,12 @@ body{
 }
 
 .container-mid4 .grid-imgs3{
-	width: 60%;
-	margin-top: 5%;
-	margin-left: 25%;
+	width: 100%;
 	display: grid;
+	padding: 10rem;
 	grid-template-columns: repeat(3, auto);
 	justify-content: space-between;
+	align-items: center;
 	row-gap: 3rem;
 	column-gap: 1rem;
 }
@@ -450,16 +450,13 @@ body{
 .container-footer{
 	position: relative;
 	width: 100%;
-	padding-right: 15%;
 }
 
 .container-footer .footer{
 	width: 100%;
-	margin-top: 10%;
-	right: 15%;
 	display: grid;
 	grid-template-columns: repeat(3, auto);
-	justify-content: right;
+	justify-content: center;
 }
 
 .container-footer .footer .footer-logo img{

@@ -39,11 +39,11 @@ body {
 }
 
 input {
-  color: #fff;
+  color: #333;
   box-shadow: 1px 1px 1px #111;
 }
 textarea{
-    color: #fff;
+    color: #333;
     box-shadow: 1px 1px 1px #111;
   }
 
@@ -121,20 +121,22 @@ textarea{
 .back a{
   position: absolute;
   top: 5%;
-  background-color: #95c015;
+  background-color: #ec881e;
   padding: 3px 6px;
   border-radius: 10px;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #333;
   text-align: center;
-  color: #fff;
+  color: #eee;
   text-transform: uppercase;
   letter-spacing: 5px;
   cursor: pointer;
 }
 
 .back a:hover{
-  background-color: #cee48e;
+  background-color: #fdfdfd;
+  color: #ec881e;
 }
 
 ::-webkit-input-placeholder {
@@ -151,6 +153,14 @@ textarea{
 }
 
 @media screen and (max-width: 460px) {
+  .back a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1px 4px;
+    font-size: 14px;
+  }
+
   .top-form .inner-form {
     width: 100%;
     margin: 5px 0;
