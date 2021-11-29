@@ -19,7 +19,7 @@ body {
 
 #myVideo {
   position: relative;
-  background: #54bce6;
+  background: #fcfcfc;
   left: 0;
   top: 0;
   width: 100%;
@@ -58,22 +58,22 @@ body {
   border-radius: 10px;
   background:none;
   border: none;
-  color: #54bce6;
+  color: #40e0d0;
   text-shadow: 10px 10px 5px rgb(190, 136, 34);
   cursor: pointer;
 }
 
 #myBtn:hover{
-  color: #eee;
+  color: #00ffff;
 }
 
 a{
   text-decoration: none;
-  color: #54bce6;
+  color: #40e0d0;
 }
 
 #myBtn a:hover {
-  color: #eee;
+  color: #00ffff;
 }
 
 .skip img {
